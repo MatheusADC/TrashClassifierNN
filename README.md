@@ -1,11 +1,11 @@
 # <img src="https://github.com/user-attachments/assets/caabfdf0-0f9e-44a3-8200-c6579fe87887" alt="description icon" width="28"> Description
 The project aims to use a convolutional neural network to classify trash images.
 
-# Website for creating and training neural networks
-[Click here](https://teachablemachine.withgoogle.com/)
-
 # Website for obtaining the database
 [Click here](https://www.kaggle.com/datasets)
+
+# Website for creating and training neural networks
+[Click here](https://teachablemachine.withgoogle.com/)
 
 # <sub><img src="https://img.icons8.com/?size=100&id=6Q2SAdhaPhXM&format=png&color=000000" alt="neural network icon" width="34"></sub> Page
 ![image](https://github.com/user-attachments/assets/4fae89dc-cac1-4e8d-a060-3748021dce3c)
