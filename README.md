@@ -8,7 +8,7 @@ The project aims to use a convolutional neural network to classify trash images.
 [Click here](https://www.kaggle.com/datasets)
 
 # <sub><img src="https://img.icons8.com/?size=100&id=6Q2SAdhaPhXM&format=png&color=000000" alt="neural network icon" width="34"></sub> Page
-![image](https://github.com/user-attachments/assets/bb130435-0673-4fa2-b897-ef8db6a26cb4)
+![image](https://github.com/user-attachments/assets/4fae89dc-cac1-4e8d-a060-3748021dce3c)
 
 # <sub><img src="https://img.icons8.com/?size=100&id=nuPce-GYYZeC&format=png&color=000000" alt="neural network icon" width="34"></sub> Commands
 ### Create package.json
