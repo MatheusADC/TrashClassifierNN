@@ -47,8 +47,8 @@ app.post("/classify", upload.single("image"), async (req, res) => {
 
         res.json({ predictions: results });
     } catch (error) {
-        console.error("Erro ao classificar imagem:", error);
-        res.status(500).json({ error: "Erro ao processar a imagem" });
+        console.error("Error classifying image:", error);
+        res.status(500).json({ error: "Error processing the image" });
     }
 });
 
