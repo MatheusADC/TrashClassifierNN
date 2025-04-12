@@ -4,36 +4,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Images Classifier</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <title>Garbage Classifier</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <img src="assets/logo.svg" alt="recycle bin">
-        <h1>Garbage Classifier</h1>
-    </header>
-
-    <main>
-        <div class="container">
-            <h2>Upload an Image</h2>
-            <input type="file" id="imageUpload" accept="image/*">
-            <div id="preview-container">
-                <img id="image-preview" src="#" alt="Image preview" style="display: none;">
+    <div class="app-container">
+        <header>
+            <div class="logo-container">
+                <img class="logo" src="assets/logo.svg" alt="Recycle bin logo">
+                <h1>Garbage Classifier</h1>
             </div>
-            <button id="classify-button">Classify</button>
-            <div id="label-container"></div>
-        </div>
-    </main>
+        </header>
 
-    <footer>
-        <p>&copy; 2025 - Images Classifier Project</p>
-    </footer>
+        <main>
+            <div class="card">
+                <div class="upload-section">
+                    <h2>Upload an Image</h2>
+                    <p class="subtitle">Select an image of garbage to classify</p>
+
+                    <label for="imageUpload" class="upload-area" id="upload-label">
+                        <div class="upload-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="17 8 12 3 7 8"></polyline>
+                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                            </svg>
+                        </div>
+                        <span>Drag & drop or click to upload</span>
+                        <input type="file" id="imageUpload" accept="image/*" hidden>
+                    </label>
+
+                    <div id="preview-container" class="preview-container">
+                        <div class="preview-header">
+                            <span>Image Preview</span>
+                            <button id="reset-button" class="reset-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                                    <path d="M3 3v5h5"></path>
+                                    <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"></path>
+                                    <path d="M16 21h5v-5"></path>
+                                </svg>
+                                Reset
+                            </button>
+                        </div>
+                        <div class="image-container">
+                            <img id="image-preview" src="#" alt="Image preview">
+                        </div>
+                        <div class="image-info" id="image-info"></div>
+                    </div>
+
+                    <button id="classify-button" class="classify-button" disabled>Classify Image</button>
+                </div>
+
+                <div class="results-section" id="results-section">
+                    <h2>Classification Results</h2>
+                    <div class="results-container" id="label-container">
+                        <div class="no-results" id="no-results">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="12"></line>
+                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                            </svg>
+                            <p>Upload and classify an image to see results</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 - Garbage Classifier Project</p>
+        </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
     <script
         src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
