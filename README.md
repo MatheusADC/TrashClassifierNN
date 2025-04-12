@@ -4,7 +4,7 @@ The project aims to use a convolutional neural network to classify trash images.
 # <sub><img src="https://img.icons8.com/?size=100&id=bMncK0wGFANA&format=png&color=000000" alt="Kaggle icon" width="42"></sub> Website for obtaining the database
 [Click here](https://www.kaggle.com/datasets)
 
-# <sub><img src="https://img.icons8.com/?size=100&id=9BozhiQDmlPL&format=png&color=000000" alt="Kaggle icon" width="42"></sub> Website for creating and training neural networks
+# <sub><img src="https://img.icons8.com/?size=100&id=9BozhiQDmlPL&format=png&color=000000" alt="teach icon" width="42"></sub> Website for creating and training neural networks
 [Click here](https://teachablemachine.withgoogle.com/)
 
 # <sub><img src="https://img.icons8.com/?size=100&id=6Q2SAdhaPhXM&format=png&color=000000" alt="neural network icon" width="34"></sub> Page
