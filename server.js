@@ -1,6 +1,6 @@
 const express = require("express");
 const multer = require("multer");
-const tf = require("@tensorflow/tfjs-node");
+const tf = require("@tensorflow/tfjs");
 const path = require("path");
 const app = express();
 const port = 3000;
