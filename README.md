@@ -8,7 +8,7 @@ The project aims to use a convolutional neural network to classify trash images.
 [Click here](https://teachablemachine.withgoogle.com/)
 
 # <sub><img src="https://img.icons8.com/?size=100&id=6Q2SAdhaPhXM&format=png&color=000000" alt="neural network icon" width="34"></sub> Page
-![image](https://github.com/user-attachments/assets/f42a3719-833d-4f46-a08a-06e0768b9343)
+![image](https://github.com/user-attachments/assets/41f04226-c0d6-4478-a2e7-713b4f59a3c0)
 
 # <sub><img src="https://img.icons8.com/?size=100&id=X7o0iyH8vbrC&format=png&color=000000" alt="recycle icon" width="36"></sub> Site
 [Click here](https://trashclassifiernn.onrender.com/)
