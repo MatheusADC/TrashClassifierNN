@@ -3,7 +3,7 @@ const multer = require("multer");
 const tf = require("@tensorflow/tfjs-node");
 const path = require("path");
 const app = express();
-const port = YOUR_PORT;
+const port = 3000;
 
 const upload = multer({ storage: multer.memoryStorage() });
 
